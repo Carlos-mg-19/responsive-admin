@@ -40,7 +40,8 @@ body{
     border-top-left-radius:30px;
     border-bottom-left-radius:30px;
 }
-.navegation ul li:hover{
+.navegation ul li:hover,
+.navegation ul li.hovered{
     background-color: var(--white);
 }
 
@@ -57,7 +58,8 @@ body{
     color: var(--white);
     
 }
-.navegation ul li:hover a{
+.navegation ul li:hover a,
+.navegation ul li.hovered a{
     color: var(--blue);
 }
 .navegation ul li a .icon{
@@ -80,7 +82,8 @@ body{
     text-align: start;
     white-space: nowrap;
 }
-.navegation ul li:hover a::before{
+.navegation ul li:hover a::before,
+.navegation ul li.hovered a::before{
     content: '';
     position: absolute;
     right: 0;
@@ -92,7 +95,8 @@ body{
     box-shadow: 35px 35px 0 10px var(--white);
     pointer-events: none;
 }
-.navegation ul li:hover a::after{
+.navegation ul li:hover a::after,
+.navegation ul li.hovered a::after{
     content: '';
     position: absolute;
     right: 0;
@@ -103,4 +107,12 @@ body{
     border-radius: 50%;
     box-shadow: 35px -35px 0 10px var(--white);
     pointer-events: none;
+}
+
+
+
+.main{
+    position: absolute;
+    width: calc(100% - 300px);
+    left: 300px; 
 }
