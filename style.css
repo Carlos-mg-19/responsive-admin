@@ -295,3 +295,37 @@ color: var(--white);
     color: var(--white);
     border-bottom: 1px solid var(--white);
 }
+.detalls .recentOrders table tr td:last-child{
+    text-align: end;
+}
+.detalls .recentOrders table tr td:nth-child(2){
+    text-align: end;
+}
+.detalls .recentOrders table tr td:nth-child(3){ 
+    text-align: center;
+}
+
+.Status-delivered{
+    background: #90e606;
+    padding: 2px 4px;
+    color: var(--white);
+    border-radius: 5px;
+}
+.Status-pending{
+    background: #eece16;
+    padding: 2px 4px;
+    color: var(--white);
+    border-radius: 5px;
+}
+.Status-return{
+    background: #f12a2a;
+    padding: 2px 4px;
+    color: var(--white);
+    border-radius: 5px;
+}
+.Status-in-progress{
+    background: #2a70f1;
+    padding: 2px 4px;
+    color: var(--white);
+    border-radius: 5px;
+}
