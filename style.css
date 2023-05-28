@@ -273,3 +273,25 @@ color: var(--white);
     color: var(--white);
     border-radius: 10px;
 }
+
+.detalls table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.detalls table thead td {
+    font-weight: 600;
+}
+.detalls .recentOrders table tr td{
+    padding: 10px;
+}
+.detalls .recentOrders tr{
+   
+    color: var(--black1);
+    border-bottom:1px solid black ;
+}
+.detalls .recentOrders table tbody tr:hover{
+    background-color: var(--blue);
+    color: var(--white);
+    border-bottom: 1px solid var(--white);
+}
